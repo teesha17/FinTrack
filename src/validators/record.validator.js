@@ -1,0 +1,8 @@
+import { z } from "zod";
+
+export const recordSchema = z.object({
+  amount: z.number().positive(),
+  type: z.enum(["income", "expense"]),
+  category: z.string().optional(),
+  notes: z.string().optional()
+});

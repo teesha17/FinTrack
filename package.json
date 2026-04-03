@@ -1,0 +1,28 @@
+{
+  "name": "fintrack",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/teesha17/FinTrack#readme",
+  "bugs": {
+    "url": "https://github.com/teesha17/FinTrack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teesha17/FinTrack.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module", 
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
+}
